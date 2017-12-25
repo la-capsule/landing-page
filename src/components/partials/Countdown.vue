@@ -62,15 +62,12 @@ export default {
 #countdown
   padding-top 2em
   p
+    font-family HKConcentrate
     em
-      font-family vision
-      font-weight 100
       margin-right .7em
       font-size 2.25em
     b
       display inline-block
-      font-family vision
-      font-weight 900
       font-size 4em
       min-width 74px
       margin-right .1em

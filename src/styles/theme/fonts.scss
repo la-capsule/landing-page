@@ -1,0 +1,25 @@
+$font_path: '~@/assets/fonts/';
+
+
+/***************
+HKConcentrate
+***************/
+
+// Light
+@font-face {
+  font-family    : 'HKConcentrate';
+  src            : url($font_path +'HKConcentrate-Light.eot') format('embedded-opentype'), url($font_path +'HKConcentrate-Light.woff2') format('woff2'), url($font_path +'HKConcentrate-Light.woff') format('woff');
+  font-weight    : 200;
+}
+// Heavy
+@font-face {
+  font-family    : 'HKConcentrate';
+  src            : url($font_path +'HKConcentrate-Heavy.eot') format('embedded-opentype'), url($font_path +'HKConcentrate-Heavy.woff2') format('woff2'), url($font_path +'HKConcentrate-Heavy.woff') format('woff');
+  font-weight    : 700;
+}
+// Regular
+@font-face {
+  font-family    : 'HKConcentrate';
+  src            : url($font_path +'HKConcentrate-Regular.eot') format('embedded-opentype'), url($font_path +'HKConcentrate-Regular.woff2') format('woff2'), url($font_path +'HKConcentrate-Regular.woff') format('woff');
+  font-weight    : 400;
+}
