@@ -60,36 +60,40 @@ export default {
 
 <style lang="stylus" scoped>
 #countdown
-  padding-top 2em
+  padding-top 2.5vh
   p
     font-family HKConcentrate
     em
       margin-right .7em
-      font-size 2.25em
+      font-size 2em
+      font-weight 400
+      color black
     b
       display inline-block
-      font-size 4em
+      font-size 3.5em
       min-width 74px
-      margin-right .1em
+      margin-right .1vw
+      font-weight 100
+      color black
   #until
     display block
     width 55%
     text-align left
-    margin 1.5em auto 0
+    margin 1.25em auto 0
     em
-      font-family vision
-      font-weight 100
+      font-family HKConcentrate
+      font-weight 400
       margin-right .7em
       font-size 2em
       display block
       font-style italic
     b
       display inline-block
-      font-family vision
-      font-weight 700
+      font-family HKConcentrate
+      font-weight 100
       font-size 3.5em
       min-width 74px
-      margin-right .1em
+      margin-right .1vw
       transform translate(28%, -30%)
 
 </style>
