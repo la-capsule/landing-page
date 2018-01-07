@@ -18,7 +18,7 @@
           		<div class="response" id="mce-success-response" style="display:none"></div>
           	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f97ac435228f8c10b44f0c321_ae4e615f48" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <div class="clear"><input type="submit" value="OK" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
         </form>
       </div>
@@ -47,6 +47,8 @@ export default {
 <style scoped lang="stylus">
 colors = '#FC5143', '#E5737E', '#C18EBB', '#7CA6F9', '#82BAE9', '#88CFDA', '#8EE3CA', '#C9BA9B', '#E98C6E', '#FC5143'
 
+@require '~rupture/rupture/index'
+
 @keyframes backgroundColor
   for color, i in colors
     {i/(length(colors) - 1)*100 + '%'}
@@ -56,11 +58,17 @@ colors = '#FC5143', '#E5737E', '#C18EBB', '#7CA6F9', '#82BAE9', '#88CFDA', '#8EE
    width 100%
    max-width 400px
    margin 2.5vh auto 10vh
+   +below(800px)
+     width 85%
 
 .comingSoon
    font-weight 900
    font-size 2.5em
    color black
+   +below(800px)
+     font-size 1.8em
+   +below(450px)
+     font-size 1.2em
 
 section
    letter-spacing 1px
@@ -91,8 +99,9 @@ section
    input[type=submit]
       font-weight 900
       font-size 1em
-      padding 12px 9px 10px
+      padding 12px 10px 10px 9px
       transition .25s ease-out
+      text-align center
       &:hover
          background white
          cursor pointer

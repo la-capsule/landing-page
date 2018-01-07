@@ -59,6 +59,9 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
+@require '~rupture/rupture/index'
+
 #countdown
   padding-top 2.5vh
   p
@@ -68,6 +71,8 @@ export default {
       font-size 2em
       font-weight 400
       color black
+      +below(450px)
+        margin-right .3em
     b
       display inline-block
       font-size 3.5em
@@ -75,25 +80,11 @@ export default {
       margin-right .1vw
       font-weight 100
       color black
-  #until
-    display block
-    width 55%
-    text-align left
-    margin 1.25em auto 0
-    em
-      font-family HKConcentrate
-      font-weight 400
-      margin-right .7em
-      font-size 2em
-      display block
-      font-style italic
-    b
-      display inline-block
-      font-family HKConcentrate
-      font-weight 100
-      font-size 3.5em
-      min-width 74px
-      margin-right .1vw
-      transform translate(28%, -30%)
-
+      +below(450px)
+        margin-right .1em
+        min-width 40px
+  +below(800px)
+    font-size .8em
+  +below(450px)
+    font-size .5em
 </style>
