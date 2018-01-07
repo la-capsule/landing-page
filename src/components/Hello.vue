@@ -26,9 +26,9 @@
 
     <!-- <h3 class="social-title">Vous pouvez également nous suivre sur</h3> -->
     <div class="social-container">
-      <a href="#" class="socialLink">instagram</a>
-      <a href="#" class="socialLink">facebook</a>
-      <a href="#" class="socialLink">twitter</a>
+      <a href="https://www.instagram.com/capsulebordeaux" target="_blank" class="socialLink">instagram</a>
+      <a href="https://www.facebook.com/capsulebordeaux" target="_blank" class="socialLink">facebook</a>
+      <a href="https://twitter.com/CapsuleBordeaux" target="_blank" class="socialLink">twitter</a>
     </div>
 
 
