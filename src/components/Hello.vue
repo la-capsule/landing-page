@@ -7,8 +7,21 @@
     <div class="newsletter">
       <h3>Inscrivez-vous à notre newsletter pour être notifiez lors de sa sortie !</h3>
       <a href="mailto:hello@capsule.com"></a>
-      <input type="text" name="email" value="" placeholder="Votre e-mail">
-      <input type="submit" name="ok" value="OK">
+      <div id="mc_embed_signup">
+        <form action="https://capsule-bordeaux.us17.list-manage.com/subscribe/post?u=f97ac435228f8c10b44f0c321&amp;id=ae4e615f48" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <div class="mc-field-group">
+            	<input type="email" value="" name="EMAIL" class="required email" placeholder="Votre e-mail" id="mce-EMAIL">
+            </div>
+          	<div id="mce-responses" class="clear">
+          		<div class="response" id="mce-error-response" style="display:none"></div>
+          		<div class="response" id="mce-success-response" style="display:none"></div>
+          	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f97ac435228f8c10b44f0c321_ae4e615f48" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+          </div>
+        </form>
+      </div>
     </div>
 
     <!-- <h3 class="social-title">Vous pouvez également nous suivre sur</h3> -->
@@ -69,7 +82,7 @@ section
       color white
       font-size .85em
       font-weight 100
-   input[type=text]
+   input[type=email]
       width 60%
       max-width 350px
       font-size 1em
