@@ -2,7 +2,7 @@
   <section>
     <img src="../assets/logo.svg" alt="Logo Capsule Bordeaux - E-shop éphémère des créateurs Bordelais" id="logo">
     <h2 class="comingSoon">Capsule arrive dans</h2>
-    <Countdown date="January 28, 2018"></Countdown>
+    <Countdown date="February 2, 2018"></Countdown>
 
     <div class="newsletter">
       <h3>Inscrivez-vous à notre newsletter pour être notifiez lors de sa sortie !</h3>
